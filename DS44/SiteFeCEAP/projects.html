@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projetos - FeCEAP 2020</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="page-projects">
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <img id="logo" src="FeCEAP-logoAlef2.svg" alt="FeCEAP-logo">
+    
+            </a>
+            <nav>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#" class="button" onclick="onOff()">Novo Projeto</a></li>
+            </nav>
+        </header>
+    
+        <section id="title"> 
+            <p>em exibição</p>
+            <h1>Projetos</h1>
+        </section>
+    
+        <main>
+            <section id="projects">
+                <div class="project">
+                    <img
+                    src="https://cdn-icons-png.flaticon.com/512/824/824582.png" 
+                    alt="icon-minecraft">
+                
+                    <div class="content">
+                        <h3>O advento de battle royalle, um estudo sobre Free Fire</h3>
+                        <p>Administração</p>
+    
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid repellat tempora illum unde hic dolorum doloribus ipsum quibusdam
+                        </div>
+                        <a href="#">Ir para o projeto</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img 
+                    src="https://as1.ftcdn.net/v2/jpg/04/87/09/80/1000_F_487098064_9yvhR0g6uZNbgfHpCarwnV5lYVy7aGEQ.jpg" 
+                    alt="lucky-block-minecraft">
+                
+                    <div class="content">
+                        <h3>Por que a Terra NÃO é plana?</h3>
+                        <p>Ciências</p>
+    
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid repellat tempora illum unde hic dolorum doloribus ipsum quibusdam
+                        </div>
+                        <a href="#">Ir para o projeto</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img 
+                    src="https://as1.ftcdn.net/v2/jpg/04/04/85/64/1000_F_404856452_egmde7EoQ3nQnrLD737jzDeJn6nwiumC.jpg" 
+                    alt="terra-de-bloco">
+                
+                    <div class="content">
+                        <h3>Satélite caseiro</h3>
+                        <p>Engenharia</p>
+    
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid repellat tempora illum unde hic dolorum doloribus ipsum quibusdam
+                        </div>
+                        <a href="#">Ir para o projeto</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img
+                    src="https://cdn-icons-png.flaticon.com/512/1409/1409036.png" 
+                    alt="minecraft-pickaxe">
+                
+                    <div class="content">
+                        <h3>Como os Video Games inspiram nossa criatividade</h3>
+                        <p>Criatividade</p>
+    
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid repellat tempora illum unde hic dolorum doloribus ipsum quibusdam
+                        </div>
+                        <a href="#">Ir para o projeto</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            Com ❤️ <a href="https://ceappedreira.org.br/" target="_blank">CEAP</a>
+        </footer>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Novo Projeto</h1>
+
+            <form action="">
+                
+                <div class="input-wrapper">
+                    <label for="title">Título do Projeto</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Descriçao do Projeto</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link do Projeto</label>
+                    <input type="url" name="image">
+                </div>
+
+                <a href="#" onclick="onOff()"">Voltar</a>
+                <button class="button">Salvar</button>
+
+
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
